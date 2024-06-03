@@ -17,7 +17,7 @@ Output: [0,1]
 
 //This is not the optimized Approach, its an Brute Force Approach
 
-class Solution {
+public class TwoSum {
     public int[] twoSum(int[] nums, int target) {
         int n = nums.length;
         for (int i = 0; i < n - 1; i++) {
