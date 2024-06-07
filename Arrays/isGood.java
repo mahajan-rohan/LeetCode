@@ -39,7 +39,7 @@ but array nums has six. Therefore, it can not be a permutation of base[4] = [1, 
 So the answer is false.
 */
 
-public class isGood {
+public class IsGood {
     public boolean isGood(int[] nums) {
         int large = nums[0];
         for (int i = 1; i < nums.length; i++) {

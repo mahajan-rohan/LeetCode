@@ -23,7 +23,7 @@ Explanation:
 nums[1] and nums[2] are both odd. So the answer is false.
 
 */
-public class isSpecialArray {
+public class IsSpecialArray {
     public boolean isArraySpecial(int[] nums) {
         for(int i=0,j=1;i<nums.length-1;i++,j++)
         if((nums[i]%2==0 && nums[j]%2!=0) || (nums[i]%2!=0 && nums[j]%2==0)){

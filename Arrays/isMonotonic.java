@@ -17,7 +17,7 @@ Input: nums = [1,3,2]
 Output: false
 */
 
-public class isMonotonic {
+public class IsMonotonic {
     public boolean isMonotonicFun(int[] nums) {
         if (nums.length < 2)
             return true;
