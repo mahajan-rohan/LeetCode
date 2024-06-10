@@ -20,8 +20,21 @@ Output: []
 Explanation: "z" does not occur in any of the words. Hence, we return an empty array.
 */
 
-
+import java.util.ArrayList;
+import java.util.List;
 
 public class FindWordsContaining {
-    
+    public List<Integer> findWordsContaining(String[] words, char x) {
+        List<Integer> ans = new ArrayList<Integer>(); 
+        for (int i = 0; i < words.length; i++) {
+            String word = words[i];
+            for (int j = 0; j < word.length(); j++) {
+                if (word.charAt(j) == x) {
+                    ans.add(i);
+                    break; 
+                }
+            }
+        }
+        return ans;
+    }
 }
