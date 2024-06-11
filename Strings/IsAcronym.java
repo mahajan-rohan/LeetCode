@@ -30,7 +30,6 @@ import java.util.List;
 
 public class IsAcronym {
     public boolean isAcronym(List<String> words, String s) {
-        boolean ans = false;
         int lenAc = s.length();
         if(lenAc>words.size() || lenAc<words.size()) return false;
         String temp = new String();
